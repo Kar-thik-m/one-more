@@ -1,0 +1,13 @@
+.h{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px;
+}
+.search{
+    padding: 7px 60px;
+    border: none;          
+    border-radius:10px 0px 0px;
+    
+}
