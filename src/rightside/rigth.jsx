@@ -110,7 +110,7 @@ const rigthside = () => {
                     <img style={{width:"80px",marginTop:'20px', }} src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_rocket.svg" class="card-img-top" alt="..."/>
                         <div class="card-body"  >
                             <p class="card-text" style={{color:'white'}}>SB Admin Pro is packed with premium features, components, and more!</p>
-                            <a href="#" class="btn btn-primary" style={{paddig:" 0.2rbm 0.5rbm"}}>Upgrade to pro!</a>
+                            <a href="https://undraw.co/" class="btn btn-primary" style={{paddig:" 0.2rbm 0.5rbm"}}>Upgrade to pro!</a>
                         </div>
                 </div>
             </div>
