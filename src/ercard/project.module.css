@@ -32,3 +32,11 @@
     padding: 10px;
     color: #4e73df;
 }
+@media screen and (max-width:1024px){
+    .card{
+        width: 100%;
+    }
+    .card1{
+        width: 100%;
+    }
+}

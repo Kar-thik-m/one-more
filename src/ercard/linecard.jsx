@@ -1,15 +1,17 @@
 import React from "react";
+import Li from "./linecard.module.css"
 
 
 const Linecard = () => {
     return (
-        <div style={{ display: 'flex', justifyContent:"space-between", }}>
-            <div style={{ width: '550px', height: '700px', backgroundColor: 'white', }}>
+        <div className={Li.adj}>
 
 
 
 
-                <div style={{display:'flex',justifyContent:'space-between'}} >
+
+            <div>
+                <div style={{ display: 'flex', justifyContent: 'space-between',flexWrap:'wrap' }} >
                     <div className="card" style={{ margin: '10px', }}  >
 
                         <div className="card-body" style={{ padding: '15px 100px', backgroundColor: '#4e73df' }}>
@@ -17,7 +19,7 @@ const Linecard = () => {
                             <p className="card-text">#4e73df</p>
                         </div>
                     </div>
-                    <div className="card" style={{ margin: '10px' , }}  >
+                    <div className="card" style={{ margin: '10px', }}  >
 
                         <div className="card-body" style={{ padding: '15px 100px', backgroundColor: '#1cc88a' }}>
                             <p className="card-text">Success</p>
@@ -26,7 +28,7 @@ const Linecard = () => {
                     </div>
 
                 </div>
-                <div style={{display:'flex',justifyContent:'space-between'}}  >
+                <div style={{ display: 'flex', justifyContent: 'space-between',flexWrap:'wrap'  }}  >
                     <div className="card" style={{ margin: '10px', }}  >
 
                         <div className="card-body" style={{ backgroundColor: '#36b9cc', padding: '15px 100px' }}>
@@ -43,7 +45,7 @@ const Linecard = () => {
                     </div>
 
                 </div>
-                <div style={{display:'flex',justifyContent:'space-between'}}  >
+                <div style={{ display: 'flex', justifyContent: 'space-between',flexWrap:'wrap'  }}  >
                     <div className="card" style={{ margin: '10px', }}  >
 
                         <div className="card-body" style={{ backgroundColor: '#e74a3b', padding: '15px 100px' }}>
@@ -60,7 +62,7 @@ const Linecard = () => {
                     </div>
 
                 </div>
-                <div style={{display:'flex',justifyContent:'space-between'}}  >
+                <div style={{ display: 'flex', justifyContent: 'space-between',flexWrap:'wrap'  }}  >
                     <div className="card" style={{ margin: '10px' }}  >
 
                         <div className="card-body" style={{ backgroundColor: '#f8f9fc', padding: '15px 100px' }}>
@@ -78,7 +80,6 @@ const Linecard = () => {
 
                 </div>
             </div>
-            <div>
 
 
 
@@ -95,21 +96,7 @@ const Linecard = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-            </div>
-
-
-            <div class="card" style={{ width: '550px', marginRight: '25px', height:'300px', }}>
+            <div class="card" style={{ width: '550px', marginRight: '25px', height: '300px', }}>
                 <h5 class="card-header" style={{ backgroundColor: '#f8f9fc', color: '#4e73df' }}>Development Approach</h5>
                 <div class="card-body">
 
@@ -123,7 +110,7 @@ const Linecard = () => {
                         especially the utility classes.</p>
                 </div>
             </div>
-        </div>
+        </div >
 
 
 

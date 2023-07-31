@@ -107,7 +107,7 @@ const rightside = () => {
 
 
             <div >
-                <div className="card" style={{ width: '80%', backgroundColor: '#5c7dde', marginTop: "20px", marginRight: "20px", borderRadius: "30%,", }}>
+                <div className="card" style={{ width: '80%', backgroundColor: '#224abe', marginTop: "20px", marginRight: "20px", borderRadius: "30%,", }}>
                     <img style={{ width: "80px", marginTop: '20px', }} src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_rocket.svg" class="card-img-top" alt="..." />
                     <div className="card-body"  >
                         <p className="card-text" style={{ color: 'white' }}>SB Admin Pro is packed with premium features, components, and more!</p>
@@ -116,7 +116,7 @@ const rightside = () => {
                 </div>
             </div>
 
-             <div style={{height:'100vh'}}>
+             <div style={{height:'150vh'}}>
                 @@@@@
              </div>
             
