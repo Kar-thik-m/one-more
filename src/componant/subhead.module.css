@@ -1,11 +1,19 @@
 .h{
-    background-color:white;
+    background-color:rgb(137, 154, 190);
    
 }
 .dashbord{
     display: flex;
     justify-content: space-between;
+    justify-items: center;
+    flex-wrap: wrap;
     margin: 30px;
-    
-    
 }
+
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+

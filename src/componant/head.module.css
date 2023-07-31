@@ -1,13 +1,50 @@
 .h{
     background-color: rgb(235, 235, 235);
+    width:30cm ;
+    padding: 20px 20px;
     display: flex;
     justify-content: space-between;
-    
-    padding: 20px;
+   
 }
 .search{
     padding: 7px 60px;
     border: none;          
     border-radius:10px 0px 0px;
     
+}
+@media screen and (min-width:1280px) {
+    .h{
+      width: 100%;
+     
+    }
+  
+}
+
+@media screen and (min-width:1115px) {
+    .h{
+      width: 100%;
+     
+    }
+  
+}
+@media screen and (min-width:1081px) {
+    .h{
+      width: 100%;
+     
+    }
+  
+}
+@media screen and (max-width:800px) {
+    .h{
+      width: 100%;
+     
+    }
+  
+}
+@media screen and (min-width:600px) {
+    .h{
+      width: 100%;
+     padding: 10px 10px;
+    }
+  
 }

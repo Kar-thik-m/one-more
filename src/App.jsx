@@ -5,6 +5,8 @@ import Head from "../src/componant/head";
 import Subhead from "./componant/subhead";
 import Ercard from "../src/ercard/ercarddata";
 import Projectcard from '../src/ercard/projectcard';
+import style from "./meadia.module.css"
+import Linecard from "./ercard/linecard";
 
 
 function App() {
@@ -21,13 +23,13 @@ function App() {
           </div>
         </div>
         <div className="col-10" style={{ backgroundColor: "#f8f9fc", margin: "0px" }}>
-          <div >
+          <div className={style.control} >
             <Head />
 
             <Subhead />
             <Ercard />
             <Projectcard />
-            
+            <Linecard />
 
           </div>
         </div>

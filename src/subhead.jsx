@@ -8,9 +8,9 @@ const subhead=()=>{
        <div>
          <div className={Subhead.dashbord}>
             <span><h2>Dashboard</h2></span>
-            <span className={subhead.but}><button type="button" className="btn btn-outline-secondary" style={{backgroundColor:'#4e73df',color:'white'}}>Generate Report</button></span>
+            <span><button type="button" className="btn btn-outline-secondary" style={{backgroundColor:'#4e73df',color:'white'}}>Generate Report</button></span>
          </div>
-         <div className={Subhead.card}>
+         <div style={{display:"flex",justifyContent:'space-between',}}>
              
              <Card 
               title={'EARNINGS (MONTHLY)'}

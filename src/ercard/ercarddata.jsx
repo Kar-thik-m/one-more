@@ -7,7 +7,7 @@ import { Piechart } from "./piechart";
 const erdata = () => {
     return (
 
-        <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+        <div style={{display:'flex',justifyContent:'space-between',flexWrap:'wrap'}}>
             <div className={ER.card}>
                 <div className={ER.head}>
                     <span>Earnings Overview</span>

@@ -1,11 +1,12 @@
 .card{
-    width:600px;
+    width: 650px;;
     height:350px;
     background-color: white;
     margin-top: 40px;
     margin: 10px;
     box-shadow:   0 .15rem 1.75rem 0 rgba(58,59,69,.15);
     border-radius: 4% 3%;
+    padding-bottom: 30px;
 
 }
 .head{
@@ -15,7 +16,7 @@
     color: #4e73df;
 }
 .card1{
-    width:400px;
+    width:350px;
     height:350px;
     background-color: white;
     margin-top: 40px;
@@ -28,3 +29,10 @@
     padding: 10px;
     color: #4e73df;
 }
+
+
+
+
+
+
+

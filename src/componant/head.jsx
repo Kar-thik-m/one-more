@@ -44,7 +44,7 @@ const head = () => {
 
 
 
-            <span>
+            <span className={headstyle.photo}>
                 <span ><i>Martin Scorsese</i></span>
                 <img class="img-profile rounded-circle" src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_profile.svg"
                 alt=""

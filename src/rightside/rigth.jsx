@@ -1,10 +1,11 @@
 import React from "react";
+import Right from "./right.module.css"
 
 
-const rigthside = () => {
+const rightside = () => {
 
     return (
-        <div className="container" style={{marginLeft:"20px"}}>
+        <div className={Right.contant}>
 
             <div>
 
@@ -42,7 +43,7 @@ const rigthside = () => {
             </i><span style={{
                 color: "white",
                 margin: '20px',
-                
+
             }}>
                     <b style={{
                         width: '10px',
@@ -106,19 +107,19 @@ const rigthside = () => {
 
 
             <div >
-                <div class="card" style={{width:'80%' ,backgroundColor:'#5c7dde', marginTop:"20px" ,marginRight:"20px",borderRadius:"30%,",}}>
-                    <img style={{width:"80px",marginTop:'20px', }} src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_rocket.svg" class="card-img-top" alt="..."/>
-                        <div class="card-body"  >
-                            <p class="card-text" style={{color:'white'}}>SB Admin Pro is packed with premium features, components, and more!</p>
-                            <a href="https://undraw.co/" class="btn btn-primary" style={{paddig:" 0.2rbm 0.5rbm"}}>Upgrade to pro!</a>
-                        </div>
+                <div className="card" style={{ width: '80%', backgroundColor: '#5c7dde', marginTop: "20px", marginRight: "20px", borderRadius: "30%,", }}>
+                    <img style={{ width: "80px", marginTop: '20px', }} src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_rocket.svg" class="card-img-top" alt="..." />
+                    <div className="card-body"  >
+                        <p className="card-text" style={{ color: 'white' }}>SB Admin Pro is packed with premium features, components, and more!</p>
+                        <a href="https://undraw.co/" className="btn btn-primary" style={{ paddig: " 0.2rbm 0.5rbm" }}>Upgrade to pro!</a>
+                    </div>
                 </div>
             </div>
 
-
-              <div style={{paddingBottom:'600px'}}>
-                <p>........</p>
-              </div>
+             <div style={{height:'100vh'}}>
+                @@@@@
+             </div>
+            
         </div>
 
 
@@ -130,4 +131,4 @@ const rigthside = () => {
     );
 
 }
-export default rigthside;
+export default rightside;

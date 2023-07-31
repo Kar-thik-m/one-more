@@ -4,7 +4,7 @@ import React from "react";
 const Bar = () => {
     return (
 
-        <div>
+        <div >
 
             <div style={{ display: 'flex', justifyContent: 'space-between', margin: '0 20px', color: 'gray',marginTop:'20px' }}>
                 <span>Server Migration</span>
